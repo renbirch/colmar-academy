@@ -1,0 +1,67 @@
+/* Global styles */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+    margin: 0%;
+}
+
+
+
+
+/* Header & Navigation */
+
+#navigation {
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    display: flex;
+
+}
+
+.logo {
+    padding-left: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-image {
+    display: flex;
+}
+
+.logo-title {
+    display: flex;
+}
+/* Hero banner */
+
+
+
+
+
+
+/* Block 1 */
+
+
+
+
+
+
+
+/* Block 2 */
+
+
+
+
+
+
+
+/* Block 3 */
+
+
+
+
+
+
+
+/* Footer */
