@@ -1,28 +1,61 @@
 /* Global styles */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: grey;
     margin: 0%;
 }
 
+li a {
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
 
 
 
 /* Header & Navigation */
 
-#navigation {
+header {
     background-color: white;
     height: 64px;
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
 }
+
+.navigation-links {
+    list-style: none;
+}
+
+.navigation-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation-links li a:hover {
+    color: blueviolet;
+}
+
+
 
 .logo {
     padding-left: 24px;
     display: inline-flex;
     align-items: center;
+    align-content: flex-start;
     justify-content: center;
 }
 
