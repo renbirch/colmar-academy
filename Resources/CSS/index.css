@@ -41,6 +41,7 @@ h3 {
 
 h4 {
     font-size: 18px;
+    font-weight: 300;
     line-height: 27px;
     color: #000000;
 }
@@ -48,6 +49,7 @@ h4 {
 
 h5 {
     font-size: 14px;
+    font-weight: 300;
     line-height: 25px;
     color: #000000;
 }
@@ -237,3 +239,88 @@ header .mobile__nav {
 
 /* Block 1 */
 
+.block-1 {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.block-left {
+    display: block;
+    width: 60%;
+    margin-right: 12px;
+}
+
+.left-image {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.left-text {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    overflow: hidden;
+}
+
+.left-text h2 {
+    padding: 20px 0px;
+}
+
+.left-text h4 {
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+.left-text h5 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.block-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+    background-color: #DBDBDB;
+    margin-left: 12px;
+}
+
+.collumn-item {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.square-image-left {
+    width: auto;
+    display: inline-block;
+}
+
+.text-right {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.text-right h3 {
+    padding: 20px 5px;
+}
+
+
+.text-right h5 {
+    padding: 20px 5px;
+}
