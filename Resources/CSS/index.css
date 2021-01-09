@@ -12,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     background-color: white;
+    overflow: auto;
 }
 
 h1 {
@@ -39,6 +40,7 @@ li, a, button {
 
 /* Header elements */
 
+@media screen and (min-width: 1028px) {
 
 header {
     display: flex;
@@ -49,6 +51,7 @@ header {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
     z-index: 10;
     position: sticky;
+    width: 100%;
 }
 
 
@@ -75,6 +78,7 @@ header {
 
 }
 
+
 button {
     color: white;
     padding: 20px 25px;
@@ -89,6 +93,22 @@ button:hover {
     background: #A45BCF;
 }
 
+header .mobile__nav {
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width: 632px) {
+
+    header
+    .logo
+    .nav__links {
+        display: none;
+    }
+
+}
 
 
 /* Hero elements */
@@ -122,3 +142,42 @@ button:hover {
     padding-bottom: 30px;
     padding-top: 20px;
 }
+
+
+@media only screen and (max-width: 632px) {
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EAEAEA;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+    }
+    
+    .hero-text {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .hero-text h1 {
+        padding: 20px 10px;
+    }
+    
+    .hero-text h3 {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+}
+/* Block 1 */
+
