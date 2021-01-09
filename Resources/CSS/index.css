@@ -4,152 +4,72 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(209, 209, 209);
-    margin: 0%;
+    width: 100%;
+    background-color: #EAEAEA;
 }
 
-li a {
-    font-size: 16px;
-    color: grey;
+
+li, a, button {
+    font-size: 17px;
+    color: black;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
+/* Header elements */
 
-
-/* Header & Navigation */
 
 header {
-    background-color: white;
-    height: 64px;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 24px;
+    justify-content: space-between;
+    padding: 30px 24px;
+    background-color: white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.navigation-links {
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
     list-style: none;
 }
 
-.navigation-links li {
+.nav__links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.navigation-links li a {
+.nav__links li a {
     transition: all 0.3s ease 0s;
-}
-
-.navigation-links li a:hover {
-    color: blueviolet;
-}
-
-
-
-.logo {
-    padding-left: 28px;
-    display: inline-flex;
-    align-items: center;
-    align-content: flex-start;
-    justify-content: center;
-}
-
-.logo-image {
-    display: flex;
-}
-
-.logo-title {
-    display: flex;
-}
-
-
-/* Hero banner */
-
-
-.hero {
-    background-color:rgb(209, 209, 209);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 24px;
-
 
 }
 
-.hero-image {
+.nav__links li a:hover {
+    color: #8C53AE;
 
-    display: flex;
-    width: 60%;
-}
-
-.hero-text {
-    display:inline-block;
-    width: 40%;
-    padding: 20px 0px;
-
-}
-
-.hero-text h1 {
-    font-size: 42px;
-    font-weight: 700;
-    padding-bottom: 10px;
-}
-
-.hero-text h3 {
-    font-size: 32px;
-    font-weight: normal;
-    padding-bottom: 30px;
-}
-
-.hero-text h1 h3 {
-    color: black;
 }
 
 button {
-    height: 50px;
-    width: 200px;
-    border-radius: 50px;
-    background-color: black;
-    font-size: 16px;
     color: white;
-    text-decoration: none;
+    padding: 9px 25px;
+    background: #8C53AE;
+    border-radius: 50px;
     border: none;
-    transition-duration: 0.4s;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
-
-
 
 button:hover {
-    background-color: tomato;
+    background: #A45BCF;
 }
-/* Block 1 */
 
-
-
-
-
-
-
-/* Block 2 */
-
-
-
-
-
-
-
-/* Block 3 */
-
-
-
-
-
-
-
-/* Footer */
