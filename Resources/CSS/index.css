@@ -54,6 +54,9 @@ h5 {
     color: #000000;
 }
 
+h5 .subtitle {
+    text-transform: uppercase;
+}
 
 li, a, button {
     font-size: 14px;
@@ -76,6 +79,8 @@ button {
 button:hover {
     background: #A45BCF;
 }
+
+
 
 
 /* Header elements - Desktop */
@@ -135,7 +140,7 @@ header .mobile__nav {
 /* Header elements - Ipad & Mobile */
 
 
-@media screen and (max-width: 1027px) {
+@media only screen and (max-width: 1027px) and (min-width: 320px){
 
     header .desktop__nav{
         display: none;
@@ -237,7 +242,7 @@ header .mobile__nav {
 }
 
 
-/* Block 1 */
+/* Block 1 Desktop */
 
 .block-1 {
     background-color: white;
@@ -254,7 +259,7 @@ header .mobile__nav {
 .block-left {
     display: block;
     width: 60%;
-    margin-right: 12px;
+    padding-right: 12px;
 }
 
 .left-image {
@@ -292,8 +297,7 @@ header .mobile__nav {
     align-items: flex-start;
     flex-direction: column;
     width: 40%;
-    background-color: #DBDBDB;
-    margin-left: 12px;
+    padding-left: 12px;
 }
 
 .collumn-item {
@@ -323,4 +327,143 @@ header .mobile__nav {
 
 .text-right h5 {
     padding: 20px 5px;
+}
+
+
+/* Block 1 - Ipad  */
+
+
+@media only screen and (max-width: 1348px) and (min-width: 1027px) {
+
+
+    .collumn-item {
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+
+    .square-image-left {
+        width: 100%;
+        display: inline-block;
+    }
+    
+
+    .text-right {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        overflow: hidden;
+        width: 100%;
+}
+
+}
+
+/* Hero elements - Mobile */
+
+
+@media only screen and (max-width: 1027px) and (min-width: 320px) {
+
+
+    .block-1 {
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+
+    .block-left {
+        display: block;
+        width: 100%;
+        padding-right: 0px;
+    }   
+
+
+    .block-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+    
+    }
+
+    .collumn-item {
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    .square-image-left {
+        width: auto;
+        display: inline-block;
+    }
+
+    .text-right {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        overflow: hidden;
+    }
+
+    .text-right h3 {
+        padding: 20px 5px;
+    }
+
+
+    .text-right h5 {
+        padding: 20px 5px;
+    }
+
+
+    }
+
+
+/* Block 2 Desktop */
+
+.big-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #EAEAEA;
+    width: 100%;
+}
+
+.big-box-title {
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.content-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.content-item {
+
+    padding: 20px 20px;
+    max-width: 50%;
+}
+
+.item-image {
+    max-width: 100%;
 }
